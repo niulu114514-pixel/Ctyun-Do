@@ -31,7 +31,7 @@ https://github.com/niulu114514-pixel/Ctyun-Do/tree/main/cookie
 
 ![图3：登录页面](../image/3.png)
 
-> ⚠️ 如果出现类似图4的错误，**直接把错误信息复制下来发给 AI**，让 AI 帮你解决。
+> ⚠️ 如果出现类似图4的错误，**直接把错误信息复制下来发给 AI**。
 
 ![图4：出错示例](../image/4.jpg)
 
