@@ -4,10 +4,10 @@ After=network.target
 
 [Service]
 Type=simple
-WorkingDirectory=/vol1/ctyun
-Environment="PATH=/vol1/ctyun/venv/bin"
+WorkingDirectory=/opt/ctyun
+Environment="PATH=/opt/ctyun/venv/bin"
 Environment=PYTHONUNBUFFERED=1
-ExecStart=/vol1/ctyun/venv/bin/gunicorn -c /vol1/ctyun/gunicorn.conf.py wsgi:app
+ExecStart=/opt/ctyun/venv/bin/gunicorn -c /opt/ctyun/gunicorn.conf.py wsgi:app
 Restart=always
 RestartSec=5
 

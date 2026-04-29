@@ -18,10 +18,10 @@ apt install -y python3 python3-pip
 ## 2. 进入项目目录
 
 ```bash
-cd /root/test
+cd /opt/ctyun
 ```
 
-如果你的项目目录不是 `/root/test`，请把后续命令里的路径替换成你的实际路径。
+如果你的项目目录不是 `/opt/ctyun`，请把后续命令里的路径替换成你的实际路径。
 
 ## 3. 安装 Python 依赖
 
@@ -40,7 +40,7 @@ playwright install chromium
 先确认项目能正常跑起来：
 
 ```bash
-cd /root/test
+cd /opt/ctyun
 gunicorn -c gunicorn.conf.py wsgi:application
 ```
 
@@ -63,7 +63,7 @@ Ctrl + C
 把服务文件复制到系统目录：
 
 ```bash
-cp /root/test/ctyun-login.service /etc/systemd/system/ctyun-login.service
+cp /opt/ctyun/ctyun-login.service /etc/systemd/system/ctyun-login.service
 ```
 
 重新加载 systemd：
@@ -139,7 +139,7 @@ ufw allow 5000/tcp
 如果你修改了项目代码，执行：
 
 ```bash
-cd /root/test
+cd /opt/ctyun
 systemctl restart ctyun-login.service
 ```
 
@@ -181,11 +181,16 @@ http://服务器IP:5000
 
 如果要正式对外提供访问，建议再加一层 Nginx 反向代理，并绑定域名。
 
+## 13. 虚拟环境部署（可选）
+
+建议使用虚拟环境隔离项目依赖：
+
+```bash
 # 1. 安装虚拟环境支持（如果没有）
 apt install python3-venv -y
 
-# 2. 进入项目目录（你已在此）
-cd /vol1/ctyun
+# 2. 进入项目目录
+cd /opt/ctyun
 
 # 3. 创建虚拟环境（命名为 venv）
 python3 -m venv venv
@@ -198,3 +203,4 @@ pip install -r requirements.txt
 
 # 6. 运行测试（先试前台运行）
 python app.py
+```
