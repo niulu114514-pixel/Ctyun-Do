@@ -38,7 +38,7 @@ https://github.com/niulu114514-pixel/Ctyun-Do/tree/main/cookie
 ### 4. 获取 JSON 数据
 登录成功后，你应该能看到一串 JSON 数据（参考图5）。
 
-**🔥 重要：点击全部复制，一个字都不能少，一个字符都不能漏！**
+**🔥 重要：点击复制原始JSON或者选择复制，一个字都不能少，一个字符都不能漏！**
 
 ![图5：JSON 数据页面](../image/5.png)
 
