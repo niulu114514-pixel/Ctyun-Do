@@ -1,0 +1,15 @@
+[Unit]
+Description=CTYun Login Web Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=/vol1/ctyun
+Environment="PATH=/vol1/ctyun/venv/bin"
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/vol1/ctyun/venv/bin/gunicorn -c /vol1/ctyun/gunicorn.conf.py wsgi:app
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
