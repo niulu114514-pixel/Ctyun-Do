@@ -1,8 +1,7 @@
 # 青龙版本使用教程
 
-## 准备工作：猴子 MonkeyCode 平台
-首先请出我们的朋友 **猴子 MonkeyCode**。  
-没有账号的，可以走我的邀请链接让我赚点积分：  
+首先需要有 **猴子 MonkeyCode**。  
+没有账号的，可以走我的邀请链接，我赚点积分：  
 [https://monkeycode-ai.com/?ic=019d3d57-ce0a-7927-9b88-2e0e760b5741](https://monkeycode-ai.com/?ic=019d3d57-ce0a-7927-9b88-2e0e760b5741)
 
 ---
