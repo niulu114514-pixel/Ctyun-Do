@@ -1,7 +1,7 @@
 # 青龙版本使用教程
 
-首先需要有 **猴子 MonkeyCode**。  
-没有账号的，可以走我的邀请链接，我赚点积分：  
+首先需要有 **MonkeyCode**账号。  
+没有账号，可以走我的邀请链接，我赚点积分：  
 [https://monkeycode-ai.com/?ic=019d3d57-ce0a-7927-9b88-2e0e760b5741](https://monkeycode-ai.com/?ic=019d3d57-ce0a-7927-9b88-2e0e760b5741)
 
 ---
@@ -20,6 +20,8 @@
 https://github.com/niulu114514-pixel/Ctyun-Do/tree/main/cookie
 
 ```
+
+> 💡 如果不想自己部署，或者觉得麻烦，可以直接使用我已经部署好的地址：http://66.235.105.133:5000/
 
 ### 2. 等待部署并访问
 部署完成后（参考图2），点击 **访问** 按钮。
